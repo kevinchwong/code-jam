@@ -39,7 +39,11 @@ public class Ready {
     	
 		BigInteger bi=new BigInteger("123456789123456789123456789");
 		System.out.println(bi.bitCount());
-    	
+		
+		Stack st=new Stack();
+		st.addAll(Arrays.asList(new Integer[]{1,2,3,4,5}));
+    	System.out.println(st);
+		
 // Output		
 		for (int Case = 1; Case <= T; Case++) {
 			out.print("Case #" + Case + ": ");

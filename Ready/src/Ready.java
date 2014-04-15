@@ -42,7 +42,12 @@ public class Ready {
 		
 		Stack st=new Stack();
 		st.addAll(Arrays.asList(new Integer[]{1,2,3,4,5}));
-    	System.out.println(st);
+		System.out.println(st);
+
+		Queue pq=new PriorityQueue();
+		pq.addAll(Arrays.asList(new Integer[]{2,3,4,2,1,1,2,3,4,5}));
+		System.out.println(pq);
+
 		
 // Output		
 		for (int Case = 1; Case <= T; Case++) {
